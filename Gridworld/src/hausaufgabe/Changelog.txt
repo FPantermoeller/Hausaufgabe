@@ -1,0 +1,3 @@
+// Versionsdatei (Changelog)
+// 
+// 0.01	Framwork GridWorld Framework ohne Anpassung
