@@ -1,3 +1,8 @@
 // Versionsdatei (Changelog)
 // 
 // 0.01	Framwork GridWorld Framework ohne Anpassung
+// 0.02 Animal, Cow und Farmrunner programmiert, ToDo erstellt
+// ToDo: !Tooltip age
+// 0.10 Farmer fertig, Creator Farmer angefangen, Todo aktualisiert
+// ToDo: - Tooltip age
+//		 - Icons fuer Actors

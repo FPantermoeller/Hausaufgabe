@@ -3,19 +3,23 @@ package hausaufgabe;
 import java.awt.Color;
 
 import info.gridworld.actor.ActorWorld;
+import info.gridworld.grid.BoundedGrid;
+import info.gridworld.grid.Grid;
 import info.gridworld.grid.Location;
+import info.gridworld.world.World;
+
 
 class MyGridworld {
 
 	    public static void main(String[] args)
 	    {
-	        ActorWorld world = new ActorWorld();
-	        SpiralBug alice = new SpiralBug(6);
-	        alice.setColor(Color.ORANGE);
-	        SpiralBug bob = new SpiralBug(3);
-	        world.add(new Location(7, 8), alice);
-	        world.add(new Location(5, 5), bob);
+	        Grid grid = new BoundedGrid(20,20);
+	    	ActorWorld world = new ActorWorld();
+	        world.setGrid(grid);
+	        world.add(new Cow());
+	        System.setProperty("info.gridworld.gui.tooltip", "hausaufgabe.Animal.age");
 	        world.show();
 	    }
-	}
+}
+	
 
